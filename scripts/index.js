@@ -4,7 +4,7 @@ const giftbox = document.getElementById('merrywrap');
 const canvasC = document.getElementById('c');
 
 const config = {
-  birthdate: 'Dec 30, 2024',
+  birthdate: 'Dec 30, 2023',
   name: 'Jesmin Tong'
 };
 
@@ -478,6 +478,7 @@ x = setInterval(function() {
       }
       stepClass(step);
       if (step === 3) {
+        document.getElementById('happyBirthday').play(); // Add this line
       }
       if (step === 4) {
         return;

@@ -3,13 +3,30 @@
 
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Happy Birthday!</title>
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
   <link rel="stylesheet" href="styles/flexbox-center-container.css" media="all">
   <link rel="stylesheet" href="styles/system-fonts.css" media="all">
   <link rel="stylesheet" href="styles/style.css" media="all">
+  <style>
+    /* Add custom styles for responsive design */
+    @media (max-width: 600px) {
+      .container {
+        padding: 10px;
+        text-align: center;
+      }
+      ul {
+        padding: 0;
+        list-style: none;
+      }
+      li {
+        display: inline-block;
+        margin: 0 5px;
+      }
+    }
+  </style>
 </head>
 
 <body>
